@@ -1,0 +1,30 @@
+.picture {
+    background-image: url('../../../asserts/images/ground.png');
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    width: 700px;
+    font-size: 57px;
+}
+
+.content {
+    width: 80%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.pointers {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}

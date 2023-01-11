@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Africa from '../../asserts/images/Africa.png';
+import Buttons from '../Buttons/Buttons';
 import './Searchnav.css';
 
 export default function Searchnav() {
@@ -8,15 +10,19 @@ export default function Searchnav() {
       <div className="menu">
         <img src={Africa} alt="country" />
         <div className="paragraphs">
-          <p>Home</p>
-          <p>About</p>
+          <p>
+            <Link to="/">Home</Link>
+          </p>
+          <p>
+            <Link to="about">About</Link>
+          </p>
           <p>Tour package</p>
           <p>Gallery</p>
           <p>Blog</p>
           <p>Contact us</p>
         </div>
       </div>
-      <button type="submit">Sign in</button>
+      <Buttons>Sign in</Buttons>
     </div>
   );
 }
