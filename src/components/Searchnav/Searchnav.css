@@ -1,0 +1,28 @@
+.searchbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    height: 97px;
+    align-items: center;
+}
+
+button {
+    height: 51px;
+    width: 160px;
+    background-color: #C7923E;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.paragraphs {
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+}

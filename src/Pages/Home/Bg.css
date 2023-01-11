@@ -1,0 +1,21 @@
+.picture {
+    background-image: url('../../asserts/images/ground.png');
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    width: 700px;
+    font-size: 57px;
+}
+
+.content {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+}
