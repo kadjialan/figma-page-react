@@ -1,0 +1,24 @@
+.destinations__container {
+  border: 1px solid red;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.destinations__container span {
+  color: #c7923e;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.destinations__container h1 {
+  font-size: 48px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
