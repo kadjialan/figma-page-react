@@ -1,21 +1,21 @@
 .bar {
     background-color: #304F47;
     display: flex;
-    width: 70%;
+    width: 75%;
     height: 88px;
     margin-top: -40px;
     left: 10%;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
-    padding: 0 50px;
+    padding: 0 2vw;
     position: absolute;
 }
 
 input {
     height: 46px;
     border-radius: 5px;
-    width: 350px;
+    width: 17vw;
     border: 1px solid #FFF;
 }
 
