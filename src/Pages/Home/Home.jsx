@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Searchnav from '../../components/Searchnav/Searchnav';
-import Destination from './Destinations/Destination';
+import Cards from './Cards/Cards';
+import Destinations from './Destinations/Destinations';
 import Hero from './Hero/Hero';
 import Subsearch from './Subsearch/Subsearch';
+import Testimonials from './Testimonials/Testimonials';
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       <Searchnav />
       <Hero />
       <Subsearch />
-      <Destination />
+      <Cards />
+      <Destinations />
+      <Testimonials />
     </div>
   );
 }

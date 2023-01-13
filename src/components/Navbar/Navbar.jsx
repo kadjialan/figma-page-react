@@ -1,5 +1,5 @@
 import React from 'react';
-import Social from '../../asserts/images/Social.png';
+import Social from '../../asserts/images/social.png';
 import './Navbar.css';
 
 export default function Navbar() {

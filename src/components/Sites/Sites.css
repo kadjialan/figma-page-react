@@ -1,12 +1,15 @@
-.cards {
+.sites {
   display: flex;
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
-  gap: 1vw;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 15px;
   margin-bottom: 35px;
 }
 
-.cards__content {
+.sites__content {
   max-width: 350px;
   height: 584px;
   border-radius: 8px;
@@ -14,12 +17,12 @@
   background-color: #fff;
 }
 
-.cards__text {
+.sites__text {
   padding-left: 15px;
   padding-right: 70px;
 }
 
-.cards__text h2 {
+.sites__text h2 {
     color: black;
 }
 

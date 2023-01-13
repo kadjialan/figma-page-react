@@ -1,0 +1,28 @@
+.cards__container {
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__text span {
+  color: #c7923e;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cards__text h1 {
+  font-size: 48px;
+}
+
+.cards__text {
+  width: 590px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
