@@ -1,6 +1,6 @@
 .sites {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   max-width: 1300px;
@@ -23,7 +23,7 @@
 }
 
 .sites__text h2 {
-    color: black;
+  color: black;
 }
 
 .fixed {
@@ -31,4 +31,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .sites__pic {
+    width: 100%;
+  }
 }

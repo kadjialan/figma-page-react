@@ -49,7 +49,7 @@ export default function Sites() {
       {array.map((data) => {
         return (
           <div className="sites__content">
-            <img src={data.picture} alt="images" />
+            <img src={data.picture} alt="images" className="sites__pic" />
             <div className="sites__text">
               <h2>{data.title}</h2>
               <div className="fixed">

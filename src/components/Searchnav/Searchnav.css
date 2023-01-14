@@ -21,12 +21,21 @@
   font-size: 17px;
 }
 
-@media screen and (max-width: 425px) {
-.paragraphs {
-    flex-wrap: wrap;
+.paragraphs__link {
+  text-decoration: none;
+  color: black;
 }
 
-.searchbar {
+.paragraphs__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .paragraphs {
+    flex-wrap: wrap;
+  }
+
+  .searchbar {
     width: 100%;
   }
-  }
+}

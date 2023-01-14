@@ -11,22 +11,34 @@ export default function Searchnav() {
         <img src={Africa} alt="country" />
         <div className="paragraphs">
           <p>
-            <Link to="/">Home</Link>
+            <Link to="/" className="paragraphs__link">
+              Home
+            </Link>
           </p>
           <p>
-            <Link to="about">About</Link>
+            <Link to="about" className="paragraphs__link">
+              About
+            </Link>
           </p>
           <p>
-            <Link to="tourpackage">Tour package</Link>
+            <Link to="tourpackage" className="paragraphs__link">
+              Tour package
+            </Link>
           </p>
           <p>
-            <Link to="gallery">Gallery</Link>
+            <Link to="gallery" className="paragraphs__link">
+              Gallery
+            </Link>
           </p>
           <p>
-            <Link to="blog">Blog</Link>
+            <Link to="blog" className="paragraphs__link">
+              Blog
+            </Link>
           </p>
           <p>
-            <Link to="contact">Contact us</Link>
+            <Link to="contact" className="paragraphs__link">
+              Contact us
+            </Link>
           </p>
         </div>
       </div>
