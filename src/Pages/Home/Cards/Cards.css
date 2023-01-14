@@ -17,7 +17,7 @@
 }
 
 .cards__text {
-  width: 590px;
+  max-width: 590px;
   margin-top: 20px;
   margin-bottom: 40px;
   display: flex;

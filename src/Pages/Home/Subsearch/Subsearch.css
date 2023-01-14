@@ -1,32 +1,54 @@
 .bar {
-    background-color: #304F47;
-    display: flex;
-    width: 75%;
-    height: 88px;
-    margin-top: -40px;
-    left: 10%;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    padding: 0 2vw;
-    position: absolute;
+  background-color: #304f47;
+  display: flex;
+  width: 80%;
+  min-height: 88px;
+  margin-top: -40px;
+  left: 10%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 2vw;
+  position: absolute;
 }
 
 input {
-    height: 46px;
-    border-radius: 5px;
-    width: 17vw;
-    border: 1px solid #FFF;
+  height: 46px;
+  border-radius: 5px;
+  width: 17vw;
+  border: 1px solid #fff;
 }
 
 span {
-    color: #FFF;
+  color: #fff;
 }
 
 span img {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .bar p {
-    color: #9A9AB0;
+  color: #9a9ab0;
+}
+
+.bar__options {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .bar {
+    display: flex;
+    margin-top: -110px;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .bar__options {
+    padding: 10px 0;
+  }
+
+  input {
+    width: 200px;
+  }
 }

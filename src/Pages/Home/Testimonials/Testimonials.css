@@ -68,8 +68,8 @@
 }
 
 .line1 {
-  background-color: #C7923E;
-  border: 1px solid #C7923E;
+  background-color: #c7923e;
+  border: 1px solid #c7923e;
   height: 5px;
   width: 50px;
 }
@@ -79,4 +79,16 @@
   width: 50px;
   background-color: #304f47;
   border: 1px solid #304f47;
+}
+
+@media screen and (max-width: 425px) {
+  .testimonial__woman {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+  }
+
+  .testimonials__all {
+    display: grid;
+  }  
 }

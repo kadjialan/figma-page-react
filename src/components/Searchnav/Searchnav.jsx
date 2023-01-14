@@ -16,10 +16,18 @@ export default function Searchnav() {
           <p>
             <Link to="about">About</Link>
           </p>
-          <p>Tour package</p>
-          <p>Gallery</p>
-          <p>Blog</p>
-          <p>Contact us</p>
+          <p>
+            <Link to="tourpackage">Tour package</Link>
+          </p>
+          <p>
+            <Link to="gallery">Gallery</Link>
+          </p>
+          <p>
+            <Link to="blog">Blog</Link>
+          </p>
+          <p>
+            <Link to="contact">Contact us</Link>
+          </p>
         </div>
       </div>
       <Buttons>Sign in</Buttons>
