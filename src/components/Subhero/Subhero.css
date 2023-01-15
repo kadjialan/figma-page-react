@@ -1,0 +1,18 @@
+.subhero {
+    display: flex;
+    width: 422px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subhero h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.subhero h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #c7923e;
+}

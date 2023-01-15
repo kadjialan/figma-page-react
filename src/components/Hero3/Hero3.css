@@ -1,0 +1,17 @@
+.hero3 {
+  background-image: url('../../asserts/images/ground.png');
+  height: 466px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero3__h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #fff;
+}
