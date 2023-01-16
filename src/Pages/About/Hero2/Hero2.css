@@ -2,6 +2,7 @@
   position: absolute;
   right: 0;
   z-index: -1;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 
 .hero2 {
@@ -57,7 +58,6 @@
 @media screen and (max-width: 425px) {
   .hero2 h1 {
     font-size: 32px;
-    color: #fff;
   }
 
   .hero2__text {
@@ -76,6 +76,12 @@
   }
 
   .hero2__p {
-    color: #fff;
+    color: black;
   }
+}
+
+@media screen and (max-width: 768px) {
+.monkey {
+  filter: contrast(0.5);
+}
 }

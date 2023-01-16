@@ -73,11 +73,13 @@ form h3 {
 
 textarea {
   border: 1px solid #e1e1e1;
+  background: #FFFFFF;
   border-radius: 8px;
   width: 90%;
   min-height: 120px;
   padding-left: 25px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .medias {
