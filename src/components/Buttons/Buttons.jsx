@@ -1,5 +1,6 @@
 import React from 'react';
 import './Buttons.css';
+import PropTypes from 'prop-types';
 
 export default function Buttons({ content }) {
   return (
@@ -8,3 +9,7 @@ export default function Buttons({ content }) {
     </div>
   );
 }
+
+Buttons.propTypes = {
+  content: PropTypes.string.isRequired,
+};
