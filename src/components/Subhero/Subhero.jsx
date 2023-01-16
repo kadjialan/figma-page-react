@@ -1,4 +1,5 @@
-import React from 'react';
+/* import React from 'react';
+import PropTypes from 'prop-types';
 import Play from '../../asserts/images/play.png';
 import './Subhero.css';
 
@@ -15,3 +16,7 @@ export default function Subhero({ text }) {
 Subhero.defaultProps = {
   text: 'Gallery',
 };
+
+Subhero.propTypes = {
+  text: PropTypes.string.isRequired,
+}; */
