@@ -16,27 +16,27 @@ export default function Searchnav() {
             </Link>
           </p>
           <p>
-            <Link to="about" className="paragraphs__link">
+            <Link to="/about" className="paragraphs__link">
               About
             </Link>
           </p>
           <p>
-            <Link to="tourpackage" className="paragraphs__link">
+            <Link to="/tourpackage" className="paragraphs__link">
               Tour package
             </Link>
           </p>
           <p>
-            <Link to="gallery" className="paragraphs__link">
+            <Link to="/gallery" className="paragraphs__link">
               Gallery
             </Link>
           </p>
           <p>
-            <Link to="blog" className="paragraphs__link">
+            <Link to="/blog" className="paragraphs__link">
               Blog
             </Link>
           </p>
           <p>
-            <Link to="contact" className="paragraphs__link">
+            <Link to="/contact" className="paragraphs__link">
               Contact us
             </Link>
           </p>

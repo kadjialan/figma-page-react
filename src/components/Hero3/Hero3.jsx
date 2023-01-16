@@ -6,7 +6,7 @@ export default function Hero3({ children }) {
   return (
     <div className="hero3">
       <h1 className="hero3__h1">{children}</h1>
-      <Subhero>Gallery</Subhero>
+      <Subhero>Tour Package</Subhero>
     </div>
   );
 }
