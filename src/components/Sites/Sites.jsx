@@ -54,7 +54,7 @@ export default function Sites() {
               <h2>{data.title}</h2>
               <div className="fixed">
                 <p>{data.description}</p>
-                <Buttons>Learn more</Buttons>
+                <Buttons content="Learn More " />
               </div>
             </div>
           </div>

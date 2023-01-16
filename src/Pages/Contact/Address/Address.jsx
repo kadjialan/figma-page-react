@@ -50,7 +50,7 @@ export default function Address() {
             placeholder="Write a message"
           />
         </div>
-        <Buttons>sumit</Buttons>
+        <Buttons content="sumit" />
       </form>
 
       <div className="medias__main">

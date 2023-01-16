@@ -30,7 +30,7 @@ export default function Picture() {
   return (
     <div className="pictures">
       <div className="pictures__btn">
-        <Buttons>Open Instagram</Buttons>
+        <Buttons content="Open Instagram" />
       </div>
       <div className="pictures__content">
         <div className="pictures__content__one">

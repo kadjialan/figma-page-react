@@ -42,7 +42,7 @@ export default function Searchnav() {
           </p>
         </div>
       </div>
-      <Buttons>Sign in</Buttons>
+      <Buttons content="Sign In" />
     </div>
   );
 }

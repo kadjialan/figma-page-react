@@ -30,7 +30,7 @@ export default function Subsearch() {
           </span>
         </div>
       </div>
-      <Buttons>Book Now</Buttons>
+      <Buttons content="Book Now" />
     </div>
   );
 }
