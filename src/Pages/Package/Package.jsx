@@ -9,7 +9,7 @@ export default function Package() {
     <div>
       <Navbar />
       <Searchnav />
-      <Hero3>Tour Package</Hero3>
+      <Hero3 data="Tour Package" text="Tour Package" />
       <Visits />
     </div>
   );

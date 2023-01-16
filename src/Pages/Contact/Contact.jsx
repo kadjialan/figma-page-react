@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
       <Navbar />
       <Searchnav />
-      <Hero3>Contact Us</Hero3>
+      <Hero3 data="Contact Us" text="Gallery" />
       <Address />
       <Footer />
     </div>

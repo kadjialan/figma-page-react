@@ -10,7 +10,7 @@ export default function Gallery() {
     <div>
       <Navbar />
       <Searchnav />
-      <Hero3>Gallery</Hero3>
+      <Hero3 data="Gallery" text="Gallery" />
       <Picture />
       <Footer />
     </div>
