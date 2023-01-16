@@ -32,7 +32,6 @@ export default function Picture() {
       <div className="pictures__btn">
         <Buttons>Open Instagram</Buttons>
       </div>
-
       <div className="pictures__content">
         <div className="pictures__content__one">
           <img src={Pic1} alt="afrique" className="pic" />
@@ -43,27 +42,22 @@ export default function Picture() {
           <img src={Pic6} alt="afrique" className="pic" />
           <img src={Pic7} alt="afrique" className="pic" />
           <img src={Pic8} alt="afrique" className="pic" />
-        </div>
-        <div>
-          <img src={Pic9} alt="afrique" />
-          <img src={Pic10} alt="afrique" />
-          <img src={Pic11} alt="afrique" />
-          <img src={Pic12} alt="afrique" />
-          <img src={Pic13} alt="afrique" />
-          <img src={Pic14} alt="afrique" />
-          <img src={Pic15} alt="afrique" />
-          <img src={Pic16} alt="afrique" />
-        </div>
-
-        <div>
-          <img src={Pic17} alt="afrique" />
-          <img src={Pic18} alt="afrique" />
-          <img src={Pic19} alt="afrique" />
-          <img src={Pic20} alt="afrique" />
-          <img src={Pic21} alt="afrique" />
-          <img src={Pic22} alt="afrique" />
-          <img src={Pic23} alt="afrique" />
-          <img src={Pic24} alt="afrique" />
+          <img src={Pic9} alt="afrique" className="pic" />
+          <img src={Pic10} alt="afrique" className="pic" />
+          <img src={Pic11} alt="afrique" className="pic" />
+          <img src={Pic12} alt="afrique" className="pic" />
+          <img src={Pic13} alt="afrique" className="pic" />
+          <img src={Pic14} alt="afrique" className="pic" />
+          <img src={Pic15} alt="afrique" className="pic" />
+          <img src={Pic16} alt="afrique" className="pic" />
+          <img src={Pic17} alt="afrique" className="pic" />
+          <img src={Pic18} alt="afrique" className="pic" />
+          <img src={Pic19} alt="afrique" className="pic" />
+          <img src={Pic20} alt="afrique" className="pic" />
+          <img src={Pic21} alt="afrique" className="pic" />
+          <img src={Pic22} alt="afrique" className="pic" />
+          <img src={Pic23} alt="afrique" className="pic" />
+          <img src={Pic24} alt="afrique" className="pic" />
         </div>
       </div>
     </div>

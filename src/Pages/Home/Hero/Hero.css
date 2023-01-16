@@ -1,5 +1,5 @@
 .picture {
-  background-image: url('../../../asserts/images/ground.png');
+  background-image:linear-gradient() url('../../../asserts/images/ground.png');
   height: 740px;
   background-size: cover;
   background-position: center;
