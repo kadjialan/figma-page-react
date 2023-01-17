@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Africa from '../../asserts/images/Africa.png';
-import Buttons from '../Buttons/Buttons';
-import './Searchnav.css';
+import Buttons from '../Button/Button';
+import './StickyBar.css';
 
-export default function Searchnav() {
+export default function StickyBar() {
   return (
     <div className="searchbar">
       <div className="menu">
@@ -31,7 +31,7 @@ export default function Searchnav() {
             </Link>
           </p>
           <p>
-            <Link to="/blog" className="paragraphs__link">
+            <Link to="/not found" className="paragraphs__link">
               Blog
             </Link>
           </p>

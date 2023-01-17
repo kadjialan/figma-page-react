@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './Pages/About/About';
-import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
+import ErrorFallback from './Pages/ErrorFallback/ErrorFallback';
+
 import Gallery from './Pages/Gallery/Gallery';
 import Home from './Pages/Home/Home';
 import Package from './Pages/Package/Package';
@@ -16,7 +17,7 @@ function App() {
         <Route path="/tourpackage" element={<Package />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Blog />} />
+        <Route path="*" element={<ErrorFallback />} />
       </Routes>
     </BrowserRouter>
   );

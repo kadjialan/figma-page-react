@@ -1,6 +1,6 @@
 import React from 'react';
 import './Subsearch.css';
-import Buttons from '../../../components/Buttons/Buttons';
+import Button from '../../../components/Button/Button';
 import icon from '../../../asserts/images/icon.png';
 
 export default function Subsearch() {
@@ -30,7 +30,7 @@ export default function Subsearch() {
           </span>
         </div>
       </div>
-      <Buttons content="Book Now" />
+      <Button content="Book Now" />
     </div>
   );
 }

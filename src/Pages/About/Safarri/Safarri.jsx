@@ -1,7 +1,7 @@
 import React from 'react';
-import Saf1 from '../../../asserts/images/saf1.png';
-import Saf2 from '../../../asserts/images/saf2.png';
-import Saf3 from '../../../asserts/images/saf3.png';
+import House from '../../../asserts/images/saf1.png';
+import Bridge from '../../../asserts/images/saf2.png';
+import Ocean from '../../../asserts/images/saf3.png';
 import './Safarri.css';
 
 export default function Safarri() {
@@ -11,7 +11,7 @@ export default function Safarri() {
       <hr />
       <div className="safarri__holder">
         <div className="safarri__cards">
-          <img src={Saf1} alt="no" className="safarri__pic" />
+          <img src={House} alt="no" className="safarri__pictures" />
           <p>
             Welcome to Africa Wizzy Safari, a leading tourism company based in
             Rwanda. We have been in business for over 5 years and are committed
@@ -30,11 +30,11 @@ export default function Safarri() {
             experience while exploring the stunning landscapes and rich culture
             of Rwanda.
           </p>
-          <img src={Saf2} alt="no" className="safarri__pic" />
+          <img src={Bridge} alt="no" className="safarri__pictures" />
         </div>
 
         <div className="safarri__cards">
-          <img src={Saf3} alt="no" className="safarri__pic" />
+          <img src={Ocean} alt="no" className="safarri__pictures" />
           <div className="safarri__end">
             <p>
               We are proud to have received numerous awards and accolades for

@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from '../../../components/Buttons/Buttons';
+import Buttons from '../../../components/Button/Button';
 import './Address.css';
 import Network from '../../../asserts/images/network.png';
 import Email from '../../../asserts/images/email.png';

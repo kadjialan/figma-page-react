@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Play from '../../asserts/images/play.png';
-import './Hero3.css';
+import './AboutHeroText.css';
 
-export default function Hero3({ data, text }) {
+export default function AboutHeroText({ title, text }) {
   return (
-    <div className="hero3">
-      <h1 className="hero3__h1">{data}</h1>
+    <div className="aboutHeroText">
+      <h1 className="aboutHeroText__h1">{title}</h1>
       <div className="subhero">
         <h2>Home</h2>
         <img src={Play} alt="arrow" />
@@ -16,7 +16,7 @@ export default function Hero3({ data, text }) {
   );
 }
 
-Hero3.propTypes = {
-  data: PropTypes.string.isRequired,
+AboutHeroText.propTypes = {
+  title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };

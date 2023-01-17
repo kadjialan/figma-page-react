@@ -1,10 +1,10 @@
 import React from 'react';
-import './Blog.css';
+import './ErrorFallback.css';
 
-export default function Blog() {
+export default function ErrorFallback() {
   return (
-    <div className="blog">
-      <div className="blog_message">
+    <div className="errorfallback">
+      <div className="errorfallback_message">
         <h2>PAGE STILL IN CONSTRUCTION</h2>
         <p>have a look at other pages for more information</p>
       </div>

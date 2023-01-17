@@ -1,4 +1,4 @@
-.blog {
+.errorfallback {
   height: 100vh;
   overflow-y: hidden;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.blog_message {
+.errorfallback_message {
   display: flex;
   flex-direction: column;
   justify-content: center;

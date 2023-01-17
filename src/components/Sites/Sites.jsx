@@ -2,7 +2,7 @@ import './Sites.css';
 import Animal from '../../asserts/images/animal.png';
 import Volcano from '../../asserts/images/volcano.png';
 import Sea from '../../asserts/images/sea.png';
-import Buttons from '../Buttons/Buttons';
+import Buttons from '../Button/Button';
 
 export default function Sites() {
   const array = [

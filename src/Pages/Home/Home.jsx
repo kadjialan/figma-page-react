@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Searchnav from '../../components/Searchnav/Searchnav';
+import StickyBar from '../../components/StickyBar/StickyBar';
 import Cards from './Cards/Cards';
 import Destinations from './Destinations/Destinations';
 import Footer from './Footer/Footer';
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Searchnav />
+      <StickyBar />
       <Hero />
       <Subsearch />
       <Cards />

@@ -1,19 +1,21 @@
 import React from 'react';
-import Searchnav from '../../../components/Searchnav/Searchnav';
+import StickyBar from '../../../components/StickyBar/StickyBar';
 import Monkey from '../../../asserts/images/monkey.png';
 import icon from '../../../asserts/images/icon.png';
-import './Hero2.css';
+import './AboutHeroSection.css';
 
-export default function Hero2() {
+export default function AboutHeroSection() {
   return (
-    <div className="hero2">
+    <div className="aboutHeroSection">
       <img src={Monkey} alt="monkey" className="monkey" />
-      <Searchnav />
-      <div className="hero2__text">
+      <StickyBar />
+      <div className="aboutHeroSection__text">
         <h1>We are dedicated to providing the best travel experience.</h1>
-        <p className="hero2__p">Discover the Land of a Thousand Hills</p>
+        <p className="aboutHeroSection__p">
+          Discover the Land of a Thousand Hills
+        </p>
 
-        <div className="hero2__choice">
+        <div className="aboutHeroSection__choice">
           <div className="options">
             <p>Guest</p>
             <h4>
