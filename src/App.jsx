@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './Pages/About/About';
+import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 import Gallery from './Pages/Gallery/Gallery';
 import Home from './Pages/Home/Home';
@@ -15,6 +16,7 @@ function App() {
         <Route path="/tourpackage" element={<Package />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
