@@ -101,6 +101,25 @@ textarea {
   gap: 20px;
 }
 
+.medias span {
+color: #304F47;
+}
+
+.mails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -7px
+}
+
+.mails__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .address__names {
     flex-direction: column;

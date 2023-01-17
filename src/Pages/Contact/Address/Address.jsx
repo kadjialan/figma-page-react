@@ -2,9 +2,6 @@ import React from 'react';
 import Buttons from '../../../components/Button/Button';
 import './Address.css';
 import Network from '../../../asserts/images/network.png';
-import Email from '../../../asserts/images/email.png';
-import Phone from '../../../asserts/images/phone.png';
-import Text from '../../../asserts/images/text.png';
 
 export default function Address() {
   return (
@@ -59,15 +56,24 @@ export default function Address() {
           <img src={Network} alt="" />
         </div>
 
-        <div className="medias">
+        <div className="medias ">
           <h2>Email & phone</h2>
-          <img src={Phone} alt="" />
-          <img src={Email} alt="" />
+          <div className="mails">
+            <span className="mails__content">
+              <i className="fa-solid fa-phone-flip" />
+              <span>+250 784 688 641</span>
+            </span>
+            <span className="mails__content">
+              <i className="fa-solid fa-envelope" />
+              <span>alandanel6@gmail.com</span>
+            </span>
+          </div>
         </div>
 
         <div className="medias">
           <h2>Address</h2>
-          <img src={Text} alt="" />
+          <span>kk 600 st</span>
+          <span>Kigali, Rwanda</span>
         </div>
       </div>
     </div>
