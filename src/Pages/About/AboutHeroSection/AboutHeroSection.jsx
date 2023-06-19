@@ -33,7 +33,7 @@ export default function AboutHeroSection() {
           <div className="options">
             <p>Package</p>
             <h4>
-              Akagera Tour
+              Akagery Tour
               <img src={icon} alt="logo" />
             </h4>
           </div>
