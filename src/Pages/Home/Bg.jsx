@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bg.css';
-import Pionter1 from '../../asserts/images/pionter1.png';
-import Pionter2 from '../../asserts/images/pionter2.png';
+import Pionter1 from '../../asserts/images/pointer1.png';
+import Pionter2 from '../../asserts/images/pointer2.png';
 
 export default function Bg() {
   return (
