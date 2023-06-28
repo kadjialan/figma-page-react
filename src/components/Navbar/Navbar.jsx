@@ -12,7 +12,7 @@ export default function Navbar() {
         </span>
         <span>
           <i className="fa-solid fa-envelope" />
-          <p>bbonteemma@gmail.com</p>
+          <p>kadjialan7@gmail.com</p>
         </span>
       </div>
       <div className="rightpart">
