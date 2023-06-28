@@ -8,11 +8,11 @@ export default function Navbar() {
       <div className="leftpart">
         <span>
           <i className="fa-solid fa-phone-flip" />
-          +250 784 688 641
+          <p>+250 784 688 641</p>
         </span>
         <span>
           <i className="fa-solid fa-envelope" />
-          bbonteemma@gmail.com
+          <p>bbonteemma@gmail.com</p>
         </span>
       </div>
       <div className="rightpart">

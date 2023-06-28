@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200;300&display=swap');
 .testimonials {
   display: flex;
   flex-direction: column;
@@ -81,6 +82,18 @@
   border: 1px solid #304f47;
 }
 
+.testimonial__woman__box h3 {
+  line-height: 120%;
+  letter-spacing: 0.08px;
+  font-family: 'Lora', serif;
+}
+
+.testimonial__woman__box p {
+  font-family: 'Mulish', sans-serif;
+  line-height: 125%;
+  letter-spacing: 0.08px;
+}
+
 @media screen and (max-width: 425px) {
   .testimonial__woman {
     display: grid;
@@ -90,5 +103,5 @@
 
   .testimonials__all {
     display: grid;
-  }  
+  }
 }

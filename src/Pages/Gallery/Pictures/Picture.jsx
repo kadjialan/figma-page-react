@@ -31,49 +31,13 @@ const test = [
     src: Monkeys,
   },
   {
-    src: Girraf,
-  },
-  {
-    src: Tourist,
-  },
-  {
-    src: Cameras,
-  },
-  {
     src: Beach,
-  },
-  {
-    src: Mountains,
-  },
-  {
-    src: Village,
-  },
-  {
-    src: Caneo,
   },
   {
     src: Volcano,
   },
   {
-    src: Church,
-  },
-  {
-    src: Towerls,
-  },
-  {
-    src: Bicycle,
-  },
-  {
     src: Mosque,
-  },
-  {
-    src: Sun,
-  },
-  {
-    src: Child,
-  },
-  {
-    src: Afric,
   },
   {
     src: Play,
@@ -82,7 +46,34 @@ const test = [
     src: Cow,
   },
   {
+    src: Visitors,
+  },
+  {
+    src: Girraf,
+  },
+  {
+    src: Sun,
+  },
+  {
     src: Elephant,
+  },
+  {
+    src: Cameras,
+  },
+  {
+    src: Caneo,
+  },
+  {
+    src: Tourist,
+  },
+  {
+    src: Mountains,
+  },
+  {
+    src: Church,
+  },
+  {
+    src: Child,
   },
   {
     src: Family,
@@ -94,10 +85,22 @@ const test = [
     src: Architecture,
   },
   {
-    src: Visitors,
+    src: Bicycle,
+  },
+  {
+    src: Afric,
+  },
+  {
+    src: Village,
   },
   {
     src: Populations,
+  },
+  {
+    src: Towerls,
+  },
+  {
+    src: Architecture,
   },
 ];
 export default function Imgture() {
@@ -106,11 +109,11 @@ export default function Imgture() {
       <div className="pictures__btn">
         <Button content="Open Instagram" />
       </div>
-      <div className="pictures__content">
-        <div className="pictures__content__container">
-          {test.map((data) => {
-            return <img src={data.src} alt="" className="pic" />;
-          })}
+      <div className="gallerys">
+        <div className="gallerys__container">
+          {test.map((imageData) => (
+            <img src={imageData.src} alt="" />
+          ))}
         </div>
       </div>
     </div>

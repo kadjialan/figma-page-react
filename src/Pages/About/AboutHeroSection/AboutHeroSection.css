@@ -2,7 +2,11 @@
   position: absolute;
   right: 0;
   z-index: -1;
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  );
 }
 
 .aboutHeroSection {
@@ -14,6 +18,9 @@
   font-weight: 700;
   font-size: 62px;
   max-width: 608px;
+  line-height: 120%;
+  letter-spacing: 0.186px;
+  font-family: 'Lora', serif;
 }
 
 .aboutHeroSection__choice {
@@ -37,6 +44,10 @@
   font-weight: 400;
   font-size: 20px;
   color: #515151;
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+  line-height: 125%;
+  letter-spacing: 0.1px;
 }
 
 .aboutHeroSection__choice button {
@@ -81,7 +92,7 @@
 }
 
 @media screen and (max-width: 768px) {
-.monkey {
-  filter: contrast(0.5);
-}
+  .monkey {
+    filter: contrast(0.5);
+  }
 }

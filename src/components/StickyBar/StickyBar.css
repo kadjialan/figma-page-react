@@ -1,6 +1,6 @@
 .searchbar {
   display: flex;
-  width: 90%;
+  width: 92%;
   margin: auto;
   justify-content: space-between;
   min-height: 97px;
@@ -11,19 +11,20 @@
 
 .menu {
   display: flex;
-  gap: 15px;
+  gap: 3rem;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .paragraphs {
   display: flex;
   gap: 10px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .paragraphs__link {
   text-decoration: none;
-  color: #304F47;
+  color: #304f47;
 }
 
 .paragraphs__link:hover {

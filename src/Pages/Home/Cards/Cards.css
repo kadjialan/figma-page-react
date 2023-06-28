@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .cards__container {
   margin-top: 120px;
   justify-content: center;
@@ -8,12 +9,17 @@
 
 .cards__text span {
   color: #c7923e;
+  font-family: 'Lora', serif;
   font-size: 32px;
   font-weight: 700;
 }
 
 .cards__text h1 {
   font-size: 48px;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.24px;
 }
 
 .cards__text {

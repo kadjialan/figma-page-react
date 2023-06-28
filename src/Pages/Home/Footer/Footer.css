@@ -20,6 +20,11 @@
 .footer__left h1 {
   font-weight: 700;
   font-size: 39px;
+  font-family: 'Lora', sans-serif;
+}
+
+.footer__left h3 {
+  font-family: 'Mulish', sans-serif;
 }
 
 .footer__left__text {
@@ -30,6 +35,7 @@
   font-size: 20px;
   max-width: 390px;
   padding-bottom: 25px;
+  font-family: 'Mulish', sans-serif;
 }
 
 .footer__search {
@@ -49,6 +55,7 @@
   max-width: 490px;
   padding-top: 38px;
   padding-right: 15px;
+  font-family: 'Mulish', sans-serif;
 }
 
 .footer__right__images {
@@ -67,16 +74,22 @@
   margin-top: 50px;
 }
 
+.copyright {
+  font-family: 'Mulish', sans-serif;
+  line-height: 125%;
+  letter-spacing: 0.08px;
+}
+
 @media screen and (max-width: 425px) {
-.footer__content {
+  .footer__content {
     display: flex;
     flex-direction: column-reverse;
-} 
-
-.footer__right {
-    padding: 0 20px;
-}
-.footer__search input {
-    width: 200px;
-}
   }
+
+  .footer__right {
+    padding: 0 20px;
+  }
+  .footer__search input {
+    width: 200px;
+  }
+}

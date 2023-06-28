@@ -6,6 +6,9 @@
 
 .safarri h1 {
   font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.186px;
+  font-family: 'lora', serif;
   font-size: 62px;
   width: 100%;
   display: flex;
@@ -25,6 +28,9 @@
   font-weight: 400;
   font-size: 24px;
   color: #515151;
+  font-family: 'Mulish', sans-serif;
+  line-height: 125%;
+  letter-spacing: 0.12px;
 }
 
 .safarri__holder {
@@ -41,24 +47,24 @@
 }
 
 @media screen and (max-width: 768px) {
-    .safarri__holder {
-        display: grid;
-    }
+  .safarri__holder {
+    display: grid;
+  }
 
-    .safarri__cards {
-        flex-direction: column;
-        padding-inline: 20px;
-    }
+  .safarri__cards {
+    flex-direction: column;
+    padding-inline: 20px;
+  }
 
-    .safarri__exception {
-        flex-direction: column-reverse;
-    }
+  .safarri__exception {
+    flex-direction: column-reverse;
+  }
 
-    .safarri__pictures {
-        width: 100%;
-    }
+  .safarri__pictures {
+    width: 100%;
+  }
 
-    .safarri__cards p {
-        width: inherit;
-    }
+  .safarri__cards p {
+    width: inherit;
+  }
 }

@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p>Copyright Africa Wizzy Safari 2022</p>
+      <p className="copyright">Copyright Africa Wizzy Safari 2022</p>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function Address() {
       </div>
 
       <form action="summit">
-        <h2>Contct us</h2>
+        <h2>Contact us</h2>
         <div className="address__names">
           <div className="address__holder">
             <h3>First Name</h3>
