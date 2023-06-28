@@ -4,7 +4,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar l">
       <div className="leftpart">
         <span>
           <i className="fa-sharp fa-solid fa-phone" />
