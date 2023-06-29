@@ -2,14 +2,14 @@
   background-color: #304f47;
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 1px 50px;
   min-height: 50px;
   align-items: center;
 }
 
 .leftpart {
   display: flex;
-  gap: 20px;
+  gap: 19px;
   color: white;
 }
 
