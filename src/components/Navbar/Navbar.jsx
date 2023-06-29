@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="leftpart">
         <span>
           <i className="fa-solid fa-phone-flip" />
-          <p>+250 784 688 641</p>
+          <p>+250 784 688 321</p>
         </span>
         <span>
           <i className="fa-solid fa-envelope" />
