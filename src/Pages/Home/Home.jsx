@@ -7,6 +7,7 @@ import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import Subsearch from './Subsearch/Subsearch';
 import Testimonials from './Testimonials/Testimonials';
+import Searchnav from '../../components/Searchnav/Searchnav';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Destinations />
       <Testimonials />
       <Footer />
+      <Searchnav />
     </div>
   );
 }
