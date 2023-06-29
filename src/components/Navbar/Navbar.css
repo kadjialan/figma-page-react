@@ -9,7 +9,7 @@
 
 .leftpart {
   display: flex;
-  gap: 20px;
+  gap: 21px;
   color: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .leftpart span {
-  gap: 10px;
+  gap: 11px;
   align-items: center;
   display: flex;
 }
