@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200;300&display=swap');
+.sites {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.sites__content {
+  max-width: 350px;
+  height: 584px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+}
+
+.sites__text {
+  padding-left: 15px;
+  padding-right: 70px;
+}
+
+.sites__text h2 {
+  color: black;
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0.12px;
+}
+
+.fixed {
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fixed p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+  .sites__pic {
+    width: 100%;
+  }
+}

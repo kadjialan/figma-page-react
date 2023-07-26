@@ -1,5 +1,5 @@
 import React from 'react';
-import Social from '../../asserts/images/Social.png';
+import Social from '../../asserts/images/social.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -7,12 +7,12 @@ export default function Navbar() {
     <div className="navbar l">
       <div className="leftpart">
         <span>
-          <i className="fa-sharp fa-solid fa-phone" />
-          +250 784 688 641
+          <i className="fa-solid fa-phone-flip" />
+          <p>+250 784 688 321</p>
         </span>
         <span>
           <i className="fa-solid fa-envelope" />
-          bbonteemma@gmail.com
+          <p>kadjialan7@gmail.com</p>
         </span>
       </div>
       <div className="rightpart">

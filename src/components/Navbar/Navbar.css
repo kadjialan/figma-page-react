@@ -1,18 +1,54 @@
 .navbar {
-    background-color: #304F47;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    height: 50px;
-    align-items: center;
+  background-color: #304f47;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6%;
+  min-height: 50px;
+  align-items: center;
 }
 
 .leftpart {
-    display: flex;
-    gap: 20px;
-    color: white;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.leftpart i {
+  font-size: 27px;
+}
+
+.leftpart p {
+  font-size: 14px;
+  font-family: auto;
+}
+
+.leftpart span {
+  gap: 10px;
+  align-items: center;
+  display: flex;
 }
 
 .fa-solid {
-    font-size: 25px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 0;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .leftpart {
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftpart span {
+    display: flex;
+    align-items: center;
+  }
 }

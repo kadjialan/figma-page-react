@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.picture {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../../../asserts/images/ground.png');
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.picture h1 {
+  font-size: 62px;
+  font-family: 'Lora', serif;
+  max-width: 700px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.186px;
+}
+
+.content {
+  width: 82%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.content p {
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 2.1px;
+}
+
+.pointers {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .picture h1 {
+    font-size: 36px;
+  }
+
+  .content {
+    max-width: 300px;
+    height: fit-content;
+  }
+}
